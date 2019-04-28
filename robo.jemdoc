@@ -1,0 +1,10 @@
+# jemdoc: menu{MENU}{robo.html}
+== Robotics & Control
+
+== Assistive torque design for hip-joint exoskeleton by admittance shaping using loop shaping method
+~~~
+{}{img_left}{doc/assistive-min.png}{photo}{360px}{220px}{}
+Hip joints provide more energy for walking forward, while at knee joints, elastic structures perform much of the cyclic work, saving and putting out energy. Therefore, for assistive exoskeletons, designing appropriate torque curve to actuate its hip joints is especially important. Nevertheless, the design of the hip assistive torque profile should take the knee joints into consideration. This paper presents a method to generate assistive torque for hip joints of lower limb exoskeletons, which is based on the dynamics of the whole leg. The worn exoskeleton is treated as an outer source to the wearer, and it would modify the wear’s torque-to-angle relationship, namely admittance. By employing loop-shaping method, the admittance of the leg is changed to a desired profile and the assistive torque for the hip joint is determined accordingly. [doc/assistive-exoskeleton.pdf pdf] [doc/assistive-exoskeleton-presentation.pdf slide] [https://youtu.be/KRr2XWcAfA8 video]\n
+
+Collaborating with Geng Chen, advised by Qining Wang.
+~~~
