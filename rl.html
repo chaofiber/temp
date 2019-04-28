@@ -1,0 +1,51 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<link rel="stylesheet" href="jemdoc.css" type="text/css" />
+<title>Reinforcement Learning</title>
+</head>
+<body>
+<table summary="Table for page layout." id="tlayout">
+<tr valign="top">
+<td id="layout-menu">
+<div class="menu-category">Chao NI</div>
+<div class="menu-item"><a href="index.html">home</a></div>
+<div class="menu-item"><a href="doc/cv.pdf">cv</a></div>
+<div class="menu-item"><a href="personal.html">personal</a></div>
+<div class="menu-category">Research</div>
+<div class="menu-item"><a href="rl.html" class="current">reinforcement&nbsp;learning</a></div>
+<div class="menu-item"><a href="vision.html">computer&nbsp;vision</a></div>
+<div class="menu-item"><a href="robo.html">robotics&nbsp;control</a></div>
+<div class="menu-category">Course</div>
+<div class="menu-item"><a href="kaggle.html">kaggle&nbsp;competition</a></div>
+</td>
+<td id="layout-content">
+<div id="toptitle">
+<h1>Reinforcement Learning</h1>
+</div>
+<h2>Cooperative Representation Learning with Self-Supervised Synchronization</h2>
+<table class="imgtable"><tr><td>
+<img src="doc/RL.png" alt="photo" width="360px" height="220px" />&nbsp;</td>
+<td align="left"><p>In the Deepmind reinforcemen learning environments, the numerical vectors far outperform images as input for general policys, such as PPO. However, there is a natural connection between the images and vectors which are some numerical values representing motions and angles of the robot joint. We leverange this idea to learn an encoder that maps the image to the latent space with self-supervised synchronization of images and vectors. We show that this latent space contains more significant informatin and could be used as input to achieve better performance in reinforcement learning problems.<br /></p>
+<p>In Process, collaborating with Guangxiang Zhu*, Hao Cheng, advised by Chongjie Zhang.</p>
+</td></tr></table>
+<h2>Markov Decision Process and Variants: a Survey on Robot Learning</h2>
+<table class="imgtable"><tr><td>
+<img src="doc/pomdp.png" alt="photo" width="360px" height="220px" />&nbsp;</td>
+<td align="left"><p>In this survey, I want to summarize approaches in robot reinforcement learning. The survey mainly introduced Markov Decision Process based methods including some variants including partially observable Markov Decision Process, Bayesian learning based POMDP, model predictive control approach and KL divergence upper bound based POMDP. Apart from applying other cutting-edge machine learning and deep learning methods, we can also make use of other control methods such model predictive control in robot learning problems. <a href="doc/survey_rl.pdf">pdf</a><br /></p>
+</td></tr></table>
+<h2>Model-free Methods in Policy Search: a Talk</h2>
+<p>This talk is presented on a seminar at the RL group of Tsinghua University directed by <a href="http://iiis.tsinghua.edu.cn/~zhang/">Chongjie Zhang</a>. In this talk, basic idea of reinforcement learning as well as some model-free methods are introduced. Two popular direction of reinforcement learning include policy gradient and weighted maximum likelihood approaches. In addition, model-based policy search method like PILCO is also shown in the talk. <a href="doc/talk_rl.pptx">slides</a><br /></p>
+<div id="footer">
+<div id="footer-text">
+Page generated 2019-04-28 15:54:02 China Standard Time, by <a href="http://jemdoc.jaboc.net/">jemdoc</a>.
+</div>
+</div>
+</td>
+</tr>
+</table>
+</body>
+</html>
