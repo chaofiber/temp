@@ -1,11 +1,7 @@
 Chao NI
     home                [index.html]
-    cv                  [doc/Resume.pdf]
-    personal            [personal.html]
+    cv                  [doc/Resume_Jan21.pdf]
 
-Research
-    reinforcement learning         [rl.html]
-    computer vision               [vision.html]
-    robotics control			  [robo.html]
-Course
-    kaggle competition          [kaggle.html]
+Docs
+    Travel log        [travel-log.html]
+    German phrases          [german-phrase.html]
