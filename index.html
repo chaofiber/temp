@@ -71,11 +71,25 @@ Master Student in Robotics at ETH Zürich, <a href="doc/Resume_Jan21.pdf">CV</a>
 <img src="doc/UI.png" alt="photo" width="360px" height="220px" />&nbsp;</td>
 <td align="left"><p>In this project, we developed an inverse kinematic solver for the hexapod and generated different gaits and propose a transition state when the hexapod has to change their gaits. We also implemented obstable avoidance algorithms on the tough terrains. The project and the video can be found at <a href="https://github.com/chaofiber/hexapod/">github</a><br /></p>
 </td></tr></table>
-<h2>Cooperative Representation Learning with Self-Supervised Synchronization</h2>
+<h2>Exploiting Effective Representation via Cooperative Learning of Multi-Sensory Robotics Data</h2>
 <table class="imgtable"><tr><td>
 <img src="doc/RL.png" alt="photo" width="360px" height="220px" />&nbsp;</td>
-<td align="left"><p>In the DeepMind reinforcement learning environments, the numerical vectors far outperform images as input for general policies, such as PPO. However, there is a natural connection between the images and vectors which are some numerical values representing motions and angles of the robot joint. We leverage this idea to learn an encoder that maps the image to the latent space with self-supervised synchronization of images and vectors. We show that this latent space contains more significant information and could be used as input to achieve better performance in reinforcement learning problems.<br /></p>
-<p>Collaborating with Guangxiang Zhu*, Hao Cheng, advised by Chongjie Zhang.</p>
+<td align="left"><p>Extracting effective representations from high-dimensional data has been one of the
+core problems for deep learning. Since the collected data by a reinforcement learning
+agent are unlabeled, previous reinforcement learning methods learn task-dependent
+representations in the policy learning process or task-agnostic representations by
+predicting the future in the pre-training. In robotics tasks, multi-sensory data (e.g.,
+robotic control state and camera observation) are usually accessible and provide
+abundant multi-source information. In this paper, we present a novel cooperative
+learning framework to extract effective representations from multi-sensory data. Our
+framework integrates self-supervised predictive dynamics learning and contrastive
+synchronization learning, which respectively leverages the dynamics information of
+each data source and the natural temporal synchronization of multi-source data. We
+evaluate our method on popular robotic control tasks, and results show that our model
+learns effective generic representations for down-stream reinforcement learning tasks
+and enables efficient transfer among multi-sensor data.<br /></p>
+<p>Collaborating with Guangxiang Zhu*, Hao Cheng, advised by Chongjie Zhang.<br />
+<a href="doc/undergrad_thesis.pdf">undergraduate thesis</a></p>
 </td></tr></table>
 <h2>Markov Decision Process and Variants: a Survey on Robot Learning</h2>
 <table class="imgtable"><tr><td>
@@ -92,7 +106,7 @@ Master Student in Robotics at ETH Zürich, <a href="doc/Resume_Jan21.pdf">CV</a>
 <p>Installation of HSL: <a href="ma57.html">ma57.html</a><br /></p>
 <div id="footer">
 <div id="footer-text">
-Page generated 2021-01-30 13:34:09 CET, by <a href="http://jemdoc.jaboc.net/">jemdoc</a>.
+Page generated 2021-01-30 17:08:13 CET, by <a href="http://jemdoc.jaboc.net/">jemdoc</a>.
 </div>
 </div>
 </td>
