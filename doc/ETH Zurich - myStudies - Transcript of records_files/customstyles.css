@@ -1,0 +1,366 @@
+/**********************************/
+/* copyright 2007 ETH BI          */
+/**********************************/
+
+/* place your custom styles here */
+
+div.systemmessage { margin: 0px 0px 10px 0px; padding: 6px 10px 8px 10px; border: 1px solid #8EC9EF; background-color:#8EC9EF }
+div.noJavaScript { margin: 0px 0px 10px 0px; padding: 6px 10px 8px 10px; border: 1px solid #EE0000; background-color:#ffff00 }
+.supportSubmit  { margin: 0px 0px 0px 0px; padding: 6px 3px 8px 3px; border: 1px solid #666666; background-color:#EEEEEE; color: #999999;}
+
+
+/* Titelfarben waren definiert als: #52ADE7*/
+/* alle Titel auf Schwarz setzen, ueberschreiben von color_c010.css */
+h1, h2, h3, h4, h5 {color: black !important;}
+h3, h4, h5 {padding-top:10px; margin-top:5px;}
+
+/* regelt das Aussehen des Links 'Information'   */
+a.zusatz         { color:#06c; text-decoration: none; background-color:#fff; font-size: 9px; font-weight: bold; padding: 1px 5px; border: 1px solid #06c;  }
+a.zusatz:link    { color:#06c; text-decoration: none; }
+a.zusatz:visited { color:#06c; text-decoration: none; }
+a.zusatz:hover   { color:#000; text-decoration: none; background-color:#06c; color:#fff; }
+a.zusatz:active  { color:#000; text-decoration: none; background-color:#06c; color:#fff; } 
+a.zusatz:focus   { color:#000; }
+
+
+/* regelt das Aussehen des Links 'weiter'   */
+a.zusatz2         { color:#06c; text-decoration: none; background-color:#fff; font-weight: bold; padding: 1px 5px; border: 1px solid #666; }
+a.zusatz2:link    { color:#06c; text-decoration: none; }
+a.zusatz2:visited { color:#06c; text-decoration: none; }
+a.zusatz2:hover   { color:#000; text-decoration: none; background-color:#06c; color:#fff; }
+a.zusatz2:active  { color:#000; text-decoration: none; background-color:#06c; color:#fff; } 
+a.zusatz2:focus   { color:#000; }
+
+/* Suchformulare */
+table.tableform                 { width:auto !important; table-layout: fixed; }
+table.tableform td              { padding: 1px 10px 1px 0px; vertical-align: top !important; }
+table.tableform td.td-1st       { width: 130px; } /*  Setzt Spaltenbreite fuer Labelspalte im Formular */
+table.tableform td.td-title     { padding: 5px  5px  5px 0px; border-top:1px solid #ccc; font-weight: bold; }
+table.tableform td.td-title-sem { padding: 10px 10px 1px 0px;  border-top:1px solid #ccc; font-weight: bold;}
+
+table.tablebox td.td-1st, 
+table.tablebox th.td-1st, 
+table.tablelist td.td-1st, 
+table.tablelist th.td-1st, 
+table.tablelist-header-grey td.td-1st, 
+table.tablelist-header-grey th.td-1st, 
+table.tablegrey td.td-1st, 
+table.tablegrey th.td-1st { 
+	width:160px; 
+} /* hiermit wird die erste Spaltenbreite in der Liste gesteuert */
+
+
+table.tablelist-footer-grey form {
+	display: inline;
+}
+
+table.tablelist tr.kategorie td,
+table.tablelist tr.unter-kategorie td,
+table.tablelist tr.unter-unter-kategorie td {
+	border-top: 1px solid black;
+}
+table.tablelist tr.kategorie td {
+	border-bottom: 1px solid black;
+}
+
+tr.kategorie td,
+tr.unter-kategorie td,
+tr.unter-unter-kategorie td  {
+	font-weight: bold;
+}
+
+table.tablelist tr.kategorie td:first-child  {
+	border-left: 1px solid black;
+}
+table.tablelist tr.kategorie td:last-child  {
+	border-right: 1px solid black;
+}
+table.tablelist tr.unter-kategorie td:first-child  {
+	padding-left: 10px;
+}
+table.tablelist tr.unter-unter-kategorie td:first-child  {
+	padding-left: 20px;
+}
+table.tablelist tr.fach td:first-child  {
+	padding-left: 30px;
+}
+
+.belegungRight {
+	display: inline-block;
+	float: right;
+}
+
+.belegungLeft {
+	display: inline-block;
+	float: left;
+}
+.belegungRight img {
+	display: block;
+	padding-top: 2px
+}
+
+div.auflagen {
+	font-weight: bold;
+	margin: 20px 0;
+	vertical-align: bottom
+}
+
+input[type="submit"].link-style {
+    background: white;
+    border: none;
+    color: blue;
+    text-align: left;
+    padding: 0px !important;
+}
+
+input.link-style:hover {
+    background: white;
+    border: none;
+    color: black;
+    text-decoration: underline;
+}
+
+/* Tabellen oben, mit Hauptinfo */
+table.tablebox                 { width:100%; border-collapse:collapse ; empty-cells:show; border:1px solid #ccc; table-layout:auto; }
+table.tablebox th              { padding: 3px 5px 3px 5px; vertical-align: top; text-align:left; }
+table.tablebox td              { padding: 3px 5px 3px 5px; vertical-align: top; }
+
+/* Tabellen grau, mit Zusatzinfo */
+table.tablegrey                 { width:100%; border-collapse:collapse ; empty-cells:show; border:1px solid #ccc; table-layout:auto; background:#eee;}
+table.tablegrey th              { padding: 3px 5px 3px 5px; vertical-align: top; text-align:left; border-top:1px dotted #ccc}
+table.tablegrey td              { padding: 3px 5px 3px 5px; vertical-align: top; }
+
+/* Reiternavigation */
+table.tablelist-navigation          { width:100%; border-collapse: collapse; empty-cells:show; table-layout: auto; }
+table.tablelist-navigation td       { padding: 3px 5px 3px 5px; border: 1px solid #ccc; font-weight:bold; background-color:#fff; white-space: nowrap;}
+table.tablelist-navigation td.aktiv { border-bottom: 1px dotted #ccc; background-color:#eee}
+
+/* Ergebnislisten */
+table.tablelist                  { width:100%; border-collapse:collapse ; empty-cells:show; border-bottom:1px solid #ccc; table-layout:auto; }
+table.tablelist th               { padding: 3px 5px 3px 5px; vertical-align: top; border-top: 1px solid #ccc;
+                                   text-align:left; font-size:11px; background-color:#eee;}
+table.tablelist td               { padding: 3px 5px 3px 5px; border-top: 1px solid #ccc; vertical-align: top; }
+
+table.tablelist td.td-level      { font-weight: bold; background-color:#eee; border:1px solid #ccc; /*  border-top:none;  */ border-bottom:1px solid #ddd; }
+table.tablelist td.td-title      { font-weight: bold; border-bottom: 1px solid #000; border-top:none;}
+
+table.tablelist td.td-abschnitt-referenz { padding-left: 170px; font-weight:bold;}
+
+table.tablelist td.td-neutral    { border:none; padding:0; } /* für die letzte Zeile in lerneinheiten und dozierende, steuert tabellenzellen-breite*/
+table.tablelist td.td-separator  { border:none; padding:0; border-bottom:1px solid #000 !important; height: 15px; font-size:5px; }
+
+/*------------------ new---------------------- */
+/* Ergaenzungen zu einer Liste */
+table.tablelist td.td-black      { border-top:1px solid #000; font-weight:bold; }
+table.tablelist td.td-grey       { border:none; font-weight:bold; color:#999; }
+
+/* Beginn einer Liste */
+table.tablelist-header-white        { width:100%; border-collapse: collapse; empty-cells:show; table-layout: auto; border:1px solid #ccc; border-bottom:none; background-color:#fff; }
+table.tablelist-header-white td     { padding: 3px 5px 3px 5px;}
+table.tablelist-header-white th      { padding: 3px 5px 3px 5px; text-align:left; }
+
+table.tablelist-header-grey         { width:100%; border-collapse: collapse; empty-cells:show; table-layout: auto; border:1px solid #ccc; border-bottom:none; background-color:#eee; }
+table.tablelist-header-grey td      { padding: 3px 5px 3px 5px;}
+table.tablelist-header-grey th      { padding: 3px 5px 3px 5px; text-align:left; }
+table.tablelist-header-grey td.td-black      { border-top:1px solid #ccc; }
+
+table.tablelist-footer-grey         { width:100%; border-collapse: collapse; empty-cells:show; table-layout: auto; border:1px solid #ccc; border-bottom:none; border-top:none; background-color:#eee; }
+table.tablelist-footer-grey td      { padding: 3px 5px 3px 5px; border-bottom:1px solid #ccc; }
+table.tablelist-footer-grey.show-lag form {display: inline-block;}
+
+.td-border-top                 { border-top:  1px solid  #ccc;}
+
+table.tablelist td.td-border-top-dotted,
+.td-border-top-dotted          { border-top:  1px dotted #ccc;}
+
+.td-border-bottom              { border-bottom: 1px solid  #ccc;}
+.td-border-right               { border-right:1px solid #ccc;}
+.td-border-left                { border-left: 1px solid #ccc;}
+.td-border-left-dotted         { border-left: 1px solid #e6e6e6;}
+
+/*------------------ Forms   ----------------------- */
+/* ueberschreibt Einstellungen aus modernbrowers.css */
+
+/* input fields */
+input {
+    margin:0px; 
+}
+/* input[type="image"]und input.image ist hiervon ausgeschlossen weil 'GO' als Grafikelement benutzt wird  */
+input[type="submit"], input[type="reset"], input[type="button"] {
+	padding:2px !important; width:200px;
+}
+input.submit, input.reset, input.button { 
+    padding:2px !important; width:200px;
+} 
+
+div.print-only { 
+    display:none;
+}
+span.print-only { 
+    display:none;
+}
+.print-only { 
+    display:none;
+}
+
+
+/*------------------ end new ----------------- */
+
+
+
+/* nested Table fuer gepaarte Eintraege in Tabellenzellen */
+table.table-nested               { width:auto !important; table-layout: auto !important; border-collapse:collapse; }
+table.table-nested td            { padding: 0 4px 3px 0; border:none; vertical-align: top; /* white-space: pre; background-color:#fff; */ }
+table.table-nested td.td-small-1 { width: 40px; font-size:11px; }
+table.table-nested td.td-small-2 { width: 40px; font-size:11px; }
+table.table-nested td.td-small-3 { width: 100px; font-size:11px; white-space:nowrap; }
+
+
+p.kapitel { font-weight: bold; font-size: 18px; padding: 2px 0px 0px 0px; margin: 0px;}
+p.bereich, p.unterbereich { font-weight: normal; padding: 0px 0px 2px 0px; margin: 0px;}
+
+
+.kommentar-abschnitt, .kommentar-kapitel, .kommentar-abschnitt, .kommentar-le, .kommentar-lv, .kommentar-kapitel-print, .kommentar-abschnitt-print, .kommentar-le-print, .kommentar-lv-print  {
+	padding-bottom: 2px;
+	font-size: 10px;
+	color: #960;
+	padding-left: 5px;
+	border-left: 1px solid #960;
+	margin-left: 20px;
+	margin-bottom: 5px;
+	font-weight: normal;
+}
+
+.kommentar-kapitel {	margin-left: 20px;}
+.kommentar-abschnitt {	margin-left: 20px;	margin-bottom: 5px;}
+.kommentar-le {	margin-left: 15px;}
+.kommentar-lv {	margin-left: 15px;}
+.kommentar-kapitel-print {	margin-left: 15px;}
+.kommentar-abschnitt-print { margin-left: 15px;}
+.kommentar-le-print {	margin-left: 30px;}
+.kommentar-lv-print { margin-left: 45px;}
+
+#deleteConfirmationId {
+	display: none;
+}
+
+#deleteConfirmationId.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  background-color: rgba(0,0,0,0.5); /*dim the background*/
+}
+
+#deleteConfirmationId.overlay .modal {
+	padding: 10px;
+    width: 300px;
+    height: 200px;
+    position: fixed;
+    top: 30%; 
+    left: 30%;
+    background-color: white;
+    border-radius: 5px;
+    text-align: center;
+    z-index: 11; /* 1px higher than the overlay layer */
+}
+
+#deleteConfirmationId.overlay .modal p {
+	margin-top: 15px;
+}
+
+#deleteConfirmationId.overlay .modal input {
+    width: 65px;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    margin-top: 40px;
+}
+
+#deleteConfirmationId.overlay .modal input.left {
+    float: left;
+    margin-left: 40px;
+}
+
+#deleteConfirmationId.overlay .modal input.right {
+    float: right;
+    margin-right: 40px;
+}
+
+span.lag-doz-list:not(:last-child):after {
+	content: ", ";
+}
+
+/*----------------------- RF ----------------------------*/
+
+/* Problem mit der unteren, abschliesenden Linie bei Pulldown-Menüs, im FF, wenn man darüber 2 leere Pulldowns hat. */
+select {font-size: 101%;}
+
+div.shibboleth {
+    background-color: #FFFFDD;
+    border: 1px solid #EE0000;
+    margin: 0 0 10px;
+    padding: 6px 10px 8px 8px;
+    width: 720px;
+}
+
+input[class=submit],
+    input[type=reset],
+    input[type=button]
+    {
+        filter:chroma(color=#000000);
+        color:#010101;
+        border-radius: 0;
+    }
+    
+input[class=submitYellow]
+    {
+        filter:chroma(color=#000000);
+        color:#010101;
+        border-radius: 0;
+        background-color:Yellow;
+    }
+    
+[hidden] { display: none; }
+
+.pulldownwith  {
+	max-width:400px;
+}
+
+
+input[type="image"].icon-delete {
+	width: 15px;
+	background-color: white;
+}
+
+#flex-container {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  -ms-box-orient: horizontal;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column-reverse;
+  flex-direction: column-reverse;
+}
+
+.flex-item {
+  width: 100%;
+}
+
+#head {
+	background: url(../images/app_head_bg_c010.jpg) no-repeat; background-position: 220px;
+}
+
+div.navblock, .margins div.contentblock-1col { margin-bottom:120px;}
+
+.mainnav, .screenhead, .color5-back, .color4-back, .color3-back, .color2-back, .color1-back, .servicenav, .transparent { 
+	background-image: url(../images/transparent.gif)
+}
+

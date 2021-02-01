@@ -1,0 +1,69 @@
+/**********************************/
+/* CSS ETH WCMS-Templates         */
+/* copyright 2004 ETH Web Office  */
+/* Author:Y. Serrano              */
+/* Author:L. Arguello             */
+/**********************************/
+/*
+$Id: customstyles_print.css,v 1.8 2014-10-14 10:20:04 fehrr Exp $
+$Rev: 99 $
+$Release: 1.0.15 $
+*/
+/* setzt sämtliche Fontgroessen auf 10 px */
+td, th { font-size: 10px !important;}
+
+/* laesst alle Buttons verschwinden, die mit class="submit" definiert sind */
+input.submit, input.reset, input.button { 
+    display: none
+}
+
+/* macht den Seitentitel groesser und setzt oben zum ETH-Logo eine Linie */
+h2  { font-size: 18px; padding-top:10px; margin:10px 0px; border-top:1px solid #000;}
+
+/* setzt den Titel "myStudies" nach rechts */
+div#head div#sitename {
+    float:right; margin-right: 5px; color:#000;  /*   margin-left:450px;    */
+}
+
+/* DIV-Tags mit Inhalten, die nur fuer den Print bestimmt sind */
+div.print-only { 
+    display: block; font-size: 10px !important; /*   color:#660000;   */
+} 
+.print-only{ 
+    display: block;  /*   color:#660000;   */
+} 
+span.print-only { 
+    display: inline;  /*   color:#660000;   */
+} 
+
+/* Klassen die man beliebigen Elementen zuordnen kann, die nicht ausgedruckt werden sollen */
+.print-no {
+	display:none;
+}
+
+table.tablelist-footer-grey { display:none }
+
+
+/* ----------------- ergaenzende Angaben VVZ ----------------------  */
+
+table.tablelist-navigation td     { background-color:#ccc !important;} /* funktioniert nur wenn beim Browser die Option 'Hintergrundbild einschalten' gewaehlt ist  */
+
+table.tablelist td { padding-right:3px !important;}
+
+table.tablebox td.td-1st, 
+table.tablebox th.td-1st, 
+table.tablelist td.td-1st, 
+table.tablelist th.td-1st, 
+table.tablelist-header-grey td.td-1st, 
+table.tablelist-header-grey th.td-1st, 
+table.tablegrey td.td-1st, 
+table.tablegrey th.td-1st, 
+table.tablelist td.td-1st-noline  { width:110px !important; }
+
+.td-small { font-size:8px !important; }
+table.table-nested td.td-small { whitespace:nowrap; }
+
+img.img-print { width:10px; height:2px;}
+a.zusatz { display:none;}
+
+[hidden] { display: none; }

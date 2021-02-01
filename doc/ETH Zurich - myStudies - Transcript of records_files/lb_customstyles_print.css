@@ -1,0 +1,14 @@
+/**********************************/
+/* CSS ETH WCMS-Templates         */
+/* copyright 2004 ETH Web Office  */
+/* Author:Y. Serrano              */
+/* Author:L. Arguello             */
+/**********************************/
+/*
+$Id: lb_customstyles_print.css,v 1.1 2015-02-03 08:49:02 fehrr Exp $
+$Rev: 99 $
+$Release: 1.0.15 $
+*/
+
+
+td, th { font-size: 10px !important;}

@@ -1,0 +1,50 @@
+/**********************************/
+/* CSS ETH WCMS-Templates         */
+/* copyright 2004 ETH Web Office  */
+/* Author:Y. Serrano              */
+/**********************************/
+/*
+$Id: lb_customstyles.css,v 1.1 2015-02-03 08:49:02 fehrr Exp $
+$Rev: 15 $
+$Release: 1.0.14 $
+*/
+
+/* place your custom styles here */
+
+
+div.error { 
+	margin: 0px 0px 10px 0px; 
+	padding: 6px 10px 8px 10px; 
+	border: 1px solid #e00; 
+	background-color:#ffd;
+}
+.color-error	{ color: #ee0000; }
+
+
+/* Titelfarben waren definiert als: #52ADE7*/
+/* alle Titel auf Schwarz setzen, ueberschreiben von color_c010.css */
+h1, h2, h3, h4, h5 {color: black !important;}
+
+/* alle Links auf duenkleres blau setzen, ueberschreiben von color_c010.css 52ADE7 */
+a:        { color:#06c !important; text-decoration:none;}
+a:link    { color:#06c; text-decoration: none; }
+a:visited { color:#06c; text-decoration: none; }
+a:hover   { color:#000; text-decoration: underline; }
+a:active  { color:#000; text-decoration: underline; } 
+a:focus   { color:#000; }
+
+/* regelt das Aussehen von Links, die hervorgehoben werden sollen  */
+a.emphasize:        { font-weight: bold;}
+a.emphasize:link    { font-weight: bold;}
+a.emphasize:visited { font-weight: bold;}
+a.emphasize:hover  	{ font-weight: bold;}
+a.emphasize:active  { font-weight: bold;} 
+a.emphasize:focus   { font-weight: bold;}
+
+/* regelt das Aussehen der Links, die im Header stehen */
+th a:        { color:#000 !important; text-decoration:underline;}
+th a:link    { color:#000; text-decoration: underline; }
+th a:visited { color:#000; text-decoration: underline; }
+th a:hover   { color:#06c; text-decoration: underline; }
+th a:active  { color:#06c; text-decoration: underline; } 
+th a:focus   { color:#000; }

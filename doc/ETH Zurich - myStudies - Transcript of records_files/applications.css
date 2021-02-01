@@ -1,0 +1,249 @@
+/**********************************/
+/* CSS ETH WCMS-Templates         */
+/* copyright 2004 ETH Web Office  */
+/* Author: P. Ruetsche, Y.Serrano */
+/**********************************/
+/*
+$Id: applications.css,v 1.1 2007-04-04 12:55:04 fehrr Exp $
+$Rev: 131 $
+$Release: 1.0.16 $
+*/
+
+/* Please do NOT change anything in this style sheet! */
+/* Use 'customstyles.css' for your own styles         */
+
+
+/* *****************************
+   Head of the site
+   ***************************** */
+
+#head {
+	height: 65px;
+	background-position: 220px;
+	background-repeat:no-repeat;
+	background-color:#F4AA38;
+}
+
+/* ETH Logo */
+#head img {
+	float: left;
+}
+
+/* Position of the sitename */
+#sitename {
+	padding: 20px 0px 0px 0px;
+}
+
+/* Position of the barcode */
+#barcode {
+	float: right;
+}
+
+/* Formatting the sitename */
+#sitename a {
+    font-family: arial, helvetica, sans-serif;
+    font-size: 18pt;
+    font-weight: bold;
+    text-decoration:none; 
+    color: #ffffff;
+}
+
+
+
+/* *****************************
+   Navigation of the site
+   ***************************** */
+
+/* Position of the top navigation */
+#topnav {
+    padding: 0px 10px 0px 15px;
+}
+
+/* Formatting the top navigation */
+#topnav a {
+	margin-right: 12px;
+	color: #000000;
+    font-size: 100%;
+	line-height: 1.2;
+	text-decoration: none;
+	line-height:26px;
+}
+
+#topnav a:hover { 
+	color: #ffffff;
+}
+
+a.topnav-on, a.topnav-on:link, a.topnav-on:visited, #topnav a.topnav-on:hover { 
+	padding: 5px 10px 7px 10px;
+    font-size: 100%;
+    text-decoration:none;
+    color: #000000;
+	background-color: #ffffff;
+	line-height:26px;
+}
+
+/* Position/format of the service navigation */
+#servicenav {
+	padding: 3px 10px 3px 15px;
+	font-size: 90%;
+	text-align: right;
+}
+
+#servicenav a {
+	text-decoration: none;
+	color: #000000;
+}	
+
+#servicenav a:hover { 
+	color: #ffffff;
+}
+
+.servicenav_items a {
+	padding-left: 5px;
+}
+
+
+/* Position/format of the status navigation */
+.pathline {
+    line-height:1;
+    padding-top:3px;
+    padding-bottom:1px;
+    padding-left:14px;
+    text-decoration:none;
+    margin-bottom:0px;
+}
+
+#statusnav {
+    margin-right: 0px; 
+	padding: 3px 10px 3px 15px;
+	font-size: 90%;
+    border-bottom: 1px solid #cccccc;
+}
+
+#statusnav a, #statusnav a:link, #statusnav a:visited, #statusnav a:hover { 
+    font-size:100%;
+    text-decoration:none; 
+}
+
+
+/* Position/format of the vertical navigation */
+#leftnav {
+	float: left;
+	z-index: 0;
+	position: relative;
+	margin-left: 0px;
+	padding-top: 57px;
+	padding-bottom: 0px;
+	padding-left: 14px;
+	padding-right: 20px;
+}
+
+/* indents the different levels */
+#leftnav ul ul {
+	margin-bottom: 0px;
+	margin-left: 12px;
+	padding: 0px;
+}
+
+#leftnav li {
+	list-style-type: none;
+}
+
+a.level0 {
+	font-weight: bold;
+}
+
+ul.level1 {
+    margin-top:2px;
+	padding-top: 3px;
+	margin-left: 0px;
+	width: 180px;
+	border-top: 1px solid #cccccc;
+}
+
+ul.level1 ul {
+	margin-top: 5px;
+}
+
+/* *****************************
+   Footer
+   ***************************** */
+
+/* Sets left and right margin and padding */
+div.footerline {
+	margin-left: 0px;
+	margin-right: 0px;
+	padding-left: 14px;
+	padding-right: 14px;
+}
+
+div.unitlogo {
+	padding-bottom: 30px;
+}
+
+div.pagetop {
+    bottom:28px;
+    margin-bottom:20px;
+    margin-left:15px;
+    /* ie fix */ 
+    _bottom: 0px;
+    _margin-bottom: -10px;
+}
+
+
+
+/* *****************************
+   Margins and positioning
+   ***************************** */
+
+/* Sets left margin */
+div.contentblock-1col {
+	margin-left: 15px;
+}
+
+
+
+/* *****************************
+   General HTML settings
+   ***************************** */
+
+body {
+	
+}
+
+img {
+	border: none;
+}
+
+/* *****************************
+   Styles for tables forms
+   ***************************** */
+
+
+div.form, input, textarea, select, option {font-size:1em;font-family:verdana,arial,helvetica,sans-serif;}
+
+div.elem20em input.text, div.elem20em input.password, div.elem20em input.file, 
+div.elem20em textarea, div.elem20em select { width:20em;}
+div.elem30em input.text, div.elem30em input.password, div.elem30em input.file, 
+div.elem30em textarea, div.elem30em select { width:30em;}
+div.elem40em input.text, div.elem40em input.password, div.elem40em input.file, 
+div.elem40em textarea, div.elem40em select { width:40em;}
+
+div.form input, div.form textarea, div.form label, div.form select, div.form fieldset  { margin-bottom:5px;}
+div.form label, div.form fieldset {float:left;}
+
+div.label10em label { width:10em;}
+div.label10em input.spacer {margin-left: 10em;}
+
+div.label15em label { width:15em;}
+div.label15em input.spacer {margin-left: 15em;}
+
+div.label20em label { width:20em;}
+div.label20em input.spacer {margin-left: 20em;}
+
+div.form fieldset {marigin:0px;padding:0px;}
+
+div.form fieldset label {margin-bottom:0px;float:none;width:auto;}
+div.form fieldset input {margin-bottom:0px;float:none;width:auto;}
+  
+div.form br { clear:left;}
